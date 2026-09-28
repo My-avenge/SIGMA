@@ -1,4 +1,6 @@
-# Official implementation of “Object Hallucination Mitigation in Large Vision-Language Models via Self-Vision Dual Masking and Uncertainty-Triggered Assembly,” accepted to NeurIPS 2026 as a Poster
+# Official implementation of “Object Hallucination Mitigation in Large Vision-Language Models via Self-Vision Dual Masking and Uncertainty-Triggered Assembly”
+
+**Accepted to NeurIPS 2026 as a Poster.**
 
 [![Conference](https://img.shields.io/badge/NeurIPS-2026%20Poster-8A2BE2)](https://openreview.net/forum?id=k3bNFdhhNj)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -88,14 +90,6 @@ complement_mask = masks.complement_mask
 ```
 
 The relevance tensors in this example are placeholders. In the complete release, model-specific adapters will construct them directly from each LVLM's vision encoder and text projection.
-
-## Paper
-
-- **Title:** Object Hallucination Mitigation in Large Vision-Language Models via Self-Vision Dual Masking and Uncertainty-Triggered Assembly
-- **Venue:** The 40th Conference on Neural Information Processing Systems (NeurIPS 2026), Poster
-- **Paper page:** [OpenReview](https://openreview.net/forum?id=k3bNFdhhNj)
-
-Citation metadata will be added with the camera-ready and full-code release.
 
 ## License
 
